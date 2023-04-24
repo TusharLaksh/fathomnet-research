@@ -1,0 +1,27 @@
+{
+  "creator": "userName",
+  "notificationAddresses": [
+    "userEmail@example.org"
+  ],
+  "sendNotification": true,
+  "format": "SIMPLE_CSV",
+  "predicate": {
+    "type": "and",
+    "predicates": [
+      {
+        "type": "equals",
+        "key": "BASIS_OF_RECORD",
+        "value": "PRESERVED_SPECIMEN"
+      },
+      {
+        "type": "in",
+        "key": "COUNTRY",
+        "values": [
+          "KW",
+          "IQ",
+          "IR"
+        ]
+      }
+    ]
+  }
+}
