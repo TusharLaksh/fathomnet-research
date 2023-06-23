@@ -3,10 +3,12 @@
 Practice using/training Machine Learning models using the FathomNet API and Tator
 
 LAPTOP UPDATES/GOALS:
-5/22/2023
-- Install chrome driver for Selenium compatibility
-- Finish Pythia Integration
-- Run test on subset of/whole dataset, see what gives Pythia results or doesn't
-- Run same dataset using different ML models
 
-PC UPDATES:
+
+PC UPDATES/GOALS:
+6/23/2023
+- CREATE NEW VENV ON PC
+- Initial Pythia runthrough
+- Run through using code-based ML Pipeline
+- Try integrating Meta image detection for bounding box coords, and then overlay them on original image for upload
+- Do manual bounding boxes if needed
