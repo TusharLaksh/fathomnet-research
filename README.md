@@ -3,12 +3,9 @@
 Practice using/training Machine Learning models using the FathomNet API and Tator
 
 LAPTOP UPDATES/GOALS:
-
+7/13/2023
+- Make manual bounding boxes for testsubset.csv
+- Run with segmentanything to see overlap, make new temp col/db for overlap
+- Run with segmentanything WITH text input to see overlap, make new temp col/db for overlap
 
 PC UPDATES/GOALS:
-6/23/2023
-- CREATE NEW VENV ON PC
-- Initial Pythia runthrough
-- Run through using code-based ML Pipeline
-- Try integrating Meta image detection for bounding box coords, and then overlay them on original image for upload
-- Do manual bounding boxes if needed
